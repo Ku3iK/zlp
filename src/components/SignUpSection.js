@@ -19,6 +19,7 @@ export default SignUpSection;
 
 const SignUpSectionWrapper = styled.section`
     background-color: #ffd829;
+    border-top: 10px solid black;
     & > div {
         max-width: 700px;
         margin: 0 auto;

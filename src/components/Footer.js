@@ -17,6 +17,7 @@ const Footer = () => {
 export default Footer;
 
 const FooterWrapper = styled.div`
+    border-left: 10px solid black;   
     position: relative;
     width: 100%;
     background-color: #ffd829;

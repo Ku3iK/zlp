@@ -19,6 +19,7 @@ const TeamCard = ({content}) => {
 export default TeamCard;
 
 const Card = styled.div`
+    border-right: 10px solid black;
     position: relative;
     width: 360px;
     background-color: #F1F1F1;

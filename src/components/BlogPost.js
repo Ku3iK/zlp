@@ -18,6 +18,7 @@ const BlogPost = ({ content }) => {
 export default BlogPost;
 
 const Article = styled.article`
+
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -118,6 +119,7 @@ const Article = styled.article`
     }
     &:nth-child(odd){
         justify-content: flex-start;
+        border-left: 10px solid black;
         & > div {
             p.date {
                 position: absolute;
@@ -129,6 +131,7 @@ const Article = styled.article`
         }
     }
     &:nth-child(even){
+        border-right: 10px solid black;
         & > div {
             p.date {
                 left: 0;

@@ -59,6 +59,8 @@ const Header = () => {
 export default Header;
 
 const HeaderSection = styled.div`
+    border-right: 10px solid black;
+    border-left: 10px solid black;
     position: relative;
     display: flex;
     width: 100%;
@@ -312,6 +314,9 @@ const HeaderSection = styled.div`
 
 const Wrapper = styled.div`
     display: flex;
+    @media (max-width: 940px) {
+        border-top: 10px solid black;
+    }
     @media (max-width: 400px) {
         flex-direction: column;        
     }
@@ -352,6 +357,7 @@ const Wrapper = styled.div`
             }
         }
         & > div:last-child {
+            
             width: 350px;
             @media (max-width: 940px) {
                 width: auto;
@@ -402,6 +408,10 @@ const Wrapper = styled.div`
         justify-content: space-between;
         align-items: center;
         padding: 3rem;
+        border-left: 10px solid black;
+        @media (max-width: 940px) {
+            border-left: none;
+        }
         @media (max-width: 505px) {
             padding: 3rem 1.5rem 3rem 2rem;
         }
