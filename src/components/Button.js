@@ -48,8 +48,10 @@ const ButtonWrapper = styled.button`
         }
     }
     &:hover div.buttonBackground {
-        transform: scaleX(2);
-        transform-origin: left center;
+        @media (min-width: 769px) {
+            transform: scaleX(2);
+            transform-origin: left center; 
+        }
     }
 `;
  

@@ -4,67 +4,32 @@ import styled from 'styled-components'
 
 const TeamList = () => {
     const teams = [
-        // {
-        //     shortTeamName: 'ZLP',
-        //     fullTeamName: 'Zbąszyneckie Lan Party',
-        //     player1: 'Mikołaj Zienkowicz',
-        //     player2: 'Mikołaj Zienkowicz',
-        //     player3: 'Mikołaj Zienkowicz',
-        //     player4: 'Mikołaj Zienkowicz',
-        //     player5: 'Mikołaj Zienkowicz',
-        //     player6: 'Mikołaj Zienkowicz',
-        //     class: '3IM1',
-        // },
-        // {
-        //     shortTeamName: 'ZLP',
-        //     fullTeamName: 'Zbąszyneckie Lan Party',
-        //     player1: 'Mikołaj Zienkowicz',
-        //     player2: 'Mikołaj Zienkowicz',
-        //     player3: 'Mikołaj Zienkowicz',
-        //     player4: 'Mikołaj Zienkowicz',
-        //     player5: 'Mikołaj Zienkowicz',
-        //     player6: 'Mikołaj Zienkowicz',
-        //     class: '3IM1',
-        // },
-        // {
-        //     shortTeamName: 'ZLP',
-        //     fullTeamName: 'Zbąszyneckie Lan Party',
-        //     player1: 'Mikołaj Zienkowicz',
-        //     player2: 'Mikołaj Zienkowicz',
-        //     player3: 'Mikołaj Zienkowicz',
-        //     player4: 'Mikołaj Zienkowicz',
-        //     player5: 'Mikołaj Zienkowicz',
-        //     player6: 'Mikołaj Zienkowicz',
-        //     class: '3IM1',
-        // },
-        // {
-        //     shortTeamName: 'ZLP',
-        //     fullTeamName: 'Zbąszyneckie Lan Party',
-        //     player1: 'Mikołaj Zienkowicz',
-        //     player2: 'Mikołaj Zienkowicz',
-        //     player3: 'Mikołaj Zienkowicz',
-        //     player4: 'Mikołaj Zienkowicz',
-        //     player5: 'Mikołaj Zienkowicz',
-        //     player6: 'Mikołaj Zienkowicz',
-        //     class: '3IM1',
-        // },
-        // {
-        //     shortTeamName: 'ZLP',
-        //     fullTeamName: 'Zbąszyneckie Lan Party',
-        //     player1: 'Mikołaj Zienkowicz',
-        //     player2: 'Mikołaj Zienkowicz',
-        //     player3: 'Mikołaj Zienkowicz',
-        //     player4: 'Mikołaj Zienkowicz',
-        //     player5: 'Mikołaj Zienkowicz',
-        //     player6: 'Mikołaj Zienkowicz',
-        //     class: '3IM1',
-        // },
+        {
+            shortTeamName: 'FY',
+            fullTeamName: 'Forever Young',
+            player1: 'Maksymilian Golon',
+            player2: 'Dawid Seifert',
+            player3: 'Szymon Woźniak',
+            player4: 'Maciej Kubiak',
+            player5: 'Adam Piórkowski',
+            class: '4M',
+        },
+        {
+            shortTeamName: 'ZGR',
+            fullTeamName: 'ZGRAJA',
+            player1: 'Adrian Piasecki',
+            player2: 'Jakub Małecki',
+            player3: 'Piotr Sołtysik',
+            player4: 'Łukasz Kasperowicz',
+            player5: 'Filip Baszuro',
+            class: '1EM',
+        },
     ]
     return ( 
         <>
             <TeamsTitle><h2>Drużyny</h2></TeamsTitle>
             <Section>
-                {teams === [] ? null : <p>Drużyny pojawią się po zakończeniu zapisów.</p>}
+                {teams.lenght !== 0 ? null : <p>Drużyny pojawią się po zakończeniu zapisów.</p>}
                 {teams.map((el, index) => <TeamCard key={index} content={el}/>)}
             </Section>
         </>
