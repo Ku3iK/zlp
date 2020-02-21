@@ -7,6 +7,13 @@ import button from '../helpers/signUpButtonActivity'
 const BlogSection = () => {
     const posts = [
         {
+            title: 'Ruszyły zapisy!',
+            content: <p>Jeśli chcesz wziąć udział w turnieju, kliknij przycisk poniżej, a następnie wypełnij formularz zgłoszeniowy. W ciągu 24 godzin od rejestracji powinieneś dostać wiadomość z potwierdzeniem na maila podanego w formularzu, w przypadku gdy taka wiadomość do Ciebie nie dotrze, prosimy o kontakt z organizatorami. Czekamy an wasze zgłoszenia i do zobaczenia na turnieju!</p>,
+            date: '21.02.2020',
+            id: 2,
+            button: <a onClick={button.nonActiveFunction} href={button.href}>Zapisz swoją drużynę</a>
+        },
+        {
             title: 'Termin zapisów',
             content: <p>Zapisy rozpoczną się w piątek 21 lutego o 16:00 i potrwają do dnia 4 marca do godziny 16:00. Zapraszamy do zabawy 5 osobowe drużyny. Serdecznie zapraszamy wszystkich uczniów CKZiU do wzięcia udziału w turnieju.</p>,
             date: '19.02.2020',

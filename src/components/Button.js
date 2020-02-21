@@ -18,23 +18,14 @@ const ButtonWrapper = styled.button`
     color:  black;
     border: none;
     position: relative;
-    /* padding: .8rem 2rem; */
+    padding: .8rem 2rem;
     font-size: 1.4rem;
     font-weight: 700;
     border: 1px solid transparent;
     p {
         position: relative;
         z-index: 2;
-        padding: .8rem 2rem;
-        a {
-            /* position: absolute;
-            top: 0;
-            bottom: 0;
-            left:0;
-            right: 0; */
-            /* padding: .8rem 0rem; */
-            /* padding: .8rem 1.6rem; */
-        }
+        /* padding: .8rem 2rem; */
     }
     div.buttonBackground {
         position: absolute;
