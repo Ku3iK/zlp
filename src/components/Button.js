@@ -22,6 +22,9 @@ const ButtonWrapper = styled.button`
     font-size: 1.4rem;
     font-weight: 700;
     border: 1px solid transparent;
+    @media (max-width: 768px) {
+        padding: 1rem 1.8rem;
+        }
     p {
         position: relative;
         z-index: 2;
@@ -39,6 +42,9 @@ const ButtonWrapper = styled.button`
         transform-origin: left center;
         &.yellow {
             background-color: #FFD829;
+        }
+        @media (max-width: 768px) {
+            width: 100%;
         }
     }
     &:hover div.buttonBackground {

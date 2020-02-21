@@ -112,7 +112,7 @@ const Article = styled.article`
         button {
             margin: 0 -40% 0 0;
             @media (max-width: 480px) {
-                margin: 0 -20% 0 0; 
+                margin: 0 -10% 0 0; 
             }
         }
     }
