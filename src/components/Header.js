@@ -59,8 +59,6 @@ const Header = () => {
 export default Header;
 
 const HeaderSection = styled.div`
-    border-right: 10px solid black;
-    border-left: 10px solid black;
     position: relative;
     display: flex;
     width: 100%;
