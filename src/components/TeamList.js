@@ -24,6 +24,36 @@ const TeamList = () => {
             player5: 'Filip Baszuro',
             class: '1EM',
         },
+        {
+            shortTeamName: 'KPG',
+            fullTeamName: 'KPG Squad',
+            player1: 'Maciej Gołek',
+            player2: 'Marcin Muszyński',
+            player3: 'Szymon Kuriata',
+            player4: 'Kacper Kozłowski',
+            player5: 'Bartosz Miszta',
+            class: '3IM1',
+        },
+        {
+            shortTeamName: 'QTPR',
+            fullTeamName: 'QuietPanther',
+            player1: 'Mikołaj Hoffman',
+            player2: 'Mikołaj Łysakowski',
+            player3: 'Jakub Malak',
+            player4: 'Adam Koczorowski',
+            player5: 'Mateusz Narożny',
+            class: '1B',
+        },
+        {
+            shortTeamName: 'DREYE',
+            fullTeamName: `Dragon'Eye`,
+            player1: 'Martin Urbański',
+            player2: 'Marcin Feliksiak',
+            player3: 'Kamil Opic',
+            player4: 'Mikołaj Furman',
+            player5: 'Jakub Urbański' ,
+            class: '4M',
+        },
     ]
     return ( 
         <>
