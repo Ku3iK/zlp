@@ -8,7 +8,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 const webFontConfig = {
     google: {
-      families: ['Montserrat:400,500,700:latin-ext'],
+      families: ['Montserrat:300,400,500,700:latin-ext'],
     }
 };
 
