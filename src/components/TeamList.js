@@ -94,6 +94,16 @@ const TeamList = () => {
             player5: 'Dawid Rogoża' ,
             class: '3IM1',
         },
+        {
+            shortTeamName: '??SM',
+            fullTeamName: `PapaSmurfsy`,
+            player1: 'Miłosz  Szarłata',
+            player2: 'Kuba Sitak',
+            player3: 'Jakub Mirek',
+            player4: 'Filip Majewski',
+            player5: 'Michał Kozłowski' ,
+            class: '2EM',
+        },
     ]
     return ( 
         <>
