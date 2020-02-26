@@ -91,7 +91,7 @@ const TeamList = () => {
             player2: 'Sebastian Piter',
             player3: 'Marcin Karcz',
             player4: 'Damian Slośnik',
-            player5: 'Dawid Rogoża' ,
+            player5: 'Mateusz Żołnierczakiewicz' ,
             class: '3IM1',
         },
         {
