@@ -95,14 +95,24 @@ const TeamList = () => {
             class: '3IM1',
         },
         {
-            shortTeamName: '??SM',
-            fullTeamName: `PapaSmurfsy`,
+            shortTeamName: '.DLR.',
+            fullTeamName: `Dealer.`,
             player1: 'Miłosz  Szarłata',
             player2: 'Kuba Sitak',
             player3: 'Jakub Mirek',
             player4: 'Filip Majewski',
             player5: 'Michał Kozłowski' ,
             class: '2EM',
+        },
+        {
+            shortTeamName: 'PiS',
+            fullTeamName: `Psycha is sitting`,
+            player1: 'Seweryn  Sawicki',
+            player2: 'Albert Kowzan',
+            player3: 'Igor Urbanek',
+            player4: 'Szymon Matusiak',
+            player5: 'Tymoteusz Brzoski' ,
+            class: '2IA',
         },
     ]
     return ( 
