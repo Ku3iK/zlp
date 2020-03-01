@@ -114,6 +114,16 @@ const TeamList = () => {
             player5: 'Tymoteusz Brzoski' ,
             class: '2IA',
         },
+        {
+            shortTeamName: 'R&A',
+            fullTeamName: `Radian Academy`,
+            player1: 'Szymon  Nawracała',
+            player2: 'Witold Krukowski',
+            player3: 'Bartosz Zieliński',
+            player4: 'Marcel Aksamit',
+            player5: 'Oskar Winiarz' ,
+            class: 'IMA',
+        },
     ]
     return ( 
         <>
