@@ -2,6 +2,7 @@ import React from 'react';
 import BlogPost from './BlogPost';
 import styled from 'styled-components';
 import button from '../helpers/signUpButtonActivity'
+import buttonMobileApp from '../helpers/mobileAppButton'
 
 
 const BlogSection = () => {
@@ -43,10 +44,10 @@ const BlogSection = () => {
         },
         {
             title: 'Aplikacja ZLP',
-            content: <p>Stworzyliśmy aplikację mobilną na smartfony i tablety z oprogramowaniem Android. Serdecznie zapraszamy do pobrania: https://play.google.com/store/apps/details?id=com.kfeliszewski.zlp</p>,
+            content: <p>Stworzyliśmy aplikację mobilną na smartfony i tablety z oprogramowaniem Android. Serdecznie zapraszamy do pobrania !</p>,
             date: '10.03.2020',
             id: 1,
-            button: <a onClick={button.nonActiveFunction} href={button.href}>Zapisz swoją drużynę</a>
+            button: <a onClick={button.nonActiveFunction} href={buttonMobileApp.href}>Pobierz aplikacje</a>
         },
         {
             title: 'Przedłużone zapisy !',
