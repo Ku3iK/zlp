@@ -41,6 +41,20 @@ const BlogSection = () => {
             date: '19.02.2020',
             id: 0,
         },
+        {
+            title: 'Aplikacja ZLP',
+            content: <p>Stworzyliśmy aplikację mobilną na smartfony i tablety z oprogramowaniem Android. Serdecznie zapraszamy do pobrania: https://play.google.com/store/apps/details?id=com.kfeliszewski.zlp</p>,
+            date: '10.03.2020',
+            id: 1,
+            button: <a onClick={button.nonActiveFunction} href={button.href}>Zapisz swoją drużynę</a>
+        },
+        {
+            title: 'Przedłużone zapisy !',
+            content: <p>Zostały ostanie 4 wolne miejsca ! Dlatego zapisy zostaną przedłużone do wtorku 17.03.</p>,
+            date: '10.03.2020',
+            id: 1,
+            button: <a onClick={button.nonActiveFunction} href={button.href}>Zapisz swoją drużynę</a>
+        },
     ];
     return ( 
         <Section>
