@@ -5,7 +5,7 @@ import styled from "styled-components";
 const TeamList = () => {
     const teams = [
         {
-            shortTeamName: "FY2",
+            shortTeamName: "FY",
             fullTeamName: "Forever Young",
             player1: "Maksymilian Golon",
             player2: "Dawid Seifert",
